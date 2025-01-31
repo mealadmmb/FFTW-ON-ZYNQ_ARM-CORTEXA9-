@@ -78,7 +78,7 @@ make install
 ```  
 ## **Step 5: Adding FFTW to you project **  
 Create a folder in your project and name it FFTW (or any name you prefer), then copy the files from the build directory into it, as illustrated in the following figures.  
-![Adding FFTW pic](./imag/1.png)  
+![Adding FFTW pic](imag/1.png)  
 
 
 ## **Step 6: Setting the Linker and adding the library to your compiler **  
@@ -89,7 +89,7 @@ Navigate to C/C++ Build → Settings.
 Under ARM GNU Toolchain → Select Libraries.  
 Add the following paths:
 Library search path (-L) as depicted:  
-![Linker](./imag/2.png)  
+![Linker](imag/2.png)  
 
 
 ## **Step 6: Add Library Path **    
@@ -104,7 +104,7 @@ Navigate to C/C++ General > Paths and Symbols.
 Under the Libraries tab:  
 
 Click Add External Library to add an external library or Add Library to add a library already available in the workspace.
-You can add the path to the library in the Library Search Path section (under Include paths). As depicted:![Path and symbol](./imag/3.png)    
+You can add the path to the library in the Library Search Path section (under Include paths). As depicted:![Path and symbol](imag/3.png)    
 
 ## **Step 7: Test Sample code** 
 After running this code you will face an error: I will explain how to solve it.  
@@ -136,7 +136,7 @@ int main() {
     return 0;
 } 
 ```  
-![Path and symbol](./imag/4.png)   
+![Path and symbol](imag/4.png)   
 
 ## **Step 8: Solve the problem and enjoy**    
 Creating a dummy function for **_gettimeofday** at the top of your code and try building it again. 
