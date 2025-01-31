@@ -78,7 +78,7 @@ make install
 ```  
 ## **Step 5: Adding FFTW to you project **  
 Create a folder in your project and name it FFTW (or any name you prefer), then copy the files from the build directory into it, as illustrated in the following figures.  
-![Adding FFTW pic](imag/1.png)  
+![Adding FFTW pic](https://github.com/mealadmmb/FFTW-ON-ZYNQ_ARM-CORTEXA9-/blob/main/Imag/1.png)  
 
 
 ## **Step 6: Setting the Linker and adding the library to your compiler **  
