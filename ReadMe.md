@@ -73,7 +73,6 @@ Run the following command to configure FFTW for **bare-metal execution**:
 ```  
 ## **Step 4: Configure FFTW for ARM Cortex-A9**  
 ```bash
-./configure \
 make
 make install
 ```  
